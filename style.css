@@ -55,10 +55,7 @@ body {
     justify-content: flex-start;
     align-items: space-around;
  }
-  .avatar {
-    width: 121px;
-    height: 100px;
-  }
+  
   @media (max-width: 768px) {
     .section {
       width: 100%;
@@ -115,5 +112,7 @@ body {
   .text{
     font-weight: bold;
   }
-  
+  li {
+    line-height: 1.5;
+  }
   
