@@ -24,6 +24,7 @@ body {
     list-style: none;
     width: 1240px;
   }
+  a { text-decoration: none; }
   
   section {
     flex-direction: column;
