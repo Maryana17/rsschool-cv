@@ -44,7 +44,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     height: 300px;
-		width: 400px;
+	width: 400px;
     padding: 10px;
     background: rgb(237, 245, 249);
   }
@@ -116,5 +116,8 @@ body {
   .text{
     font-weight: bold;
   }
-  
+  li {
+    list-style-type: none;
+    line-height: 2;
+  }
   
