@@ -1,3 +1,7 @@
+body {
+    display: flex;
+	flex-direction:column;
+}
 .header {
     display: flex;
 	justify-content: flex-start;
@@ -9,7 +13,7 @@
   }
 .navbar{
     display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
     text-decoration: none;
     width: 1220px;
@@ -44,8 +48,55 @@
  a {
     text-decoration: none;
  }
-.welcome {
+ section {
+    width: 1440px;
+ }
+#welcome {
     width: 1440px;
     height: 532px;
     background-color: #EDF2EC;
+    
+}
+.welcome {
+    width: 1222px;
+    height: 407px;
+    margin-top: 62px;
+    margin-left: 109px;
+    
+}
+.description {
+    width: 549px;
+    height: 340px;
+    margin-top: 98px;
+    margin-left: 782px;
+    
+}
+.we {
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 45px;
+    line-height: 50px;
+    line-height: 92%;
+    margin-right: 109px;
+}
+.plants {
+    color: 
+    #499A18
+    ;
+}
+.lorem {
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 35px;
+    line-height: 145%;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 158px;
+    height: 44px;
+    border: solid 2px #E06733;
+    border-radius: 10px;
 }
