@@ -55,22 +55,29 @@ section {
     width: 1440px;
     height: 532px;
     background-color: #EDF2EC;
+    border: solid 5px #759a18;
+
     
 }
 .welcome {
-    
+    display: flex;
+    justify-content: space-between;
     width: 1222px;
     height: 407px;
     margin-top: 62px;
     margin-left: 109px;
     
+    
+}
+.leafs {
+    width: 449px;
+    height: 407px;
+    border: solid 5px #9a182e;
 }
 .description {
     width: 549px;
     height: 340px;
-    margin-top: 98px;
-    margin-left: 782px;
-    
+       
 }
 .we {
     font-family: Inter;
@@ -79,6 +86,7 @@ section {
     line-height: 50px;
     line-height: 92%;
     margin-right: 109px;
+    margin-top: 36px;
 }
 .plants {
     color: 
@@ -92,7 +100,7 @@ section {
     line-height: 35px;
     line-height: 145%;
 }
-.button {
+.btn-learn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,18 +118,13 @@ section {
     margin-top: 93px;
     margin-left: 109px;
     margin-bottom: 94px;
-    border: solid 1px #499A18;
-
-
-
-
+    
 }
 .gardeners {
     width: 605px;
     height: 350px;
     margin-top: 68px;
     margin-bottom: 155px;
-    border: solid 1px #499A18;
     font-family: Inika;
     font-weight: 400;
     font-size: 40px;
@@ -155,4 +158,59 @@ section {
     margin-left: 153px;
     
    
+}
+#service {
+    height: 1300px;
+    background-color: #EDF2EC;
+}
+.content {
+    display: flex;
+    width: 1007px;
+    height: 94px;
+    margin-top: 40px;
+    margin-left: 109px; 
+    border: solid 5px #629a18;
+}
+.project {
+    display: flex;
+    width: 306px;
+    height: 94px;
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    
+
+}
+.service-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 559px;
+    height: 50px;
+    margin-top: 29px;
+    margin-left: 142px;
+   
+}
+.button-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    height: 50px;
+    border: solid 1px #E06733;
+    border-radius: 5px;
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+
+}
+.services {
+    width: 1222px;
+    height: 955px;
+    margin-top: 90px;
+    margin-left: 109px;
+    border: solid 5px  #e033a9;
+
 }
