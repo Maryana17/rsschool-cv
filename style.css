@@ -55,9 +55,7 @@ section {
     width: 1440px;
     height: 532px;
     background-color: #EDF2EC;
-    border: solid 5px #759a18;
-
-    
+     
 }
 .welcome {
     display: flex;
@@ -169,7 +167,6 @@ section {
     height: 94px;
     margin-top: 40px;
     margin-left: 109px; 
-    border: solid 5px #629a18;
 }
 .project {
     display: flex;
@@ -207,10 +204,62 @@ section {
 
 }
 .services {
+    display: inline-block;
     width: 1222px;
     height: 955px;
     margin-top: 90px;
     margin-left: 109px;
     border: solid 5px  #e033a9;
 
+}
+.block {
+    width: 330px;
+    height: 450px;
+    background-color:#E3E1D5 ;
+    border-color: solid 1px #E3E1D5;
+    border-radius: 20px;
+ 
+
+      
+}
+.one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 55px;
+}
+.two {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+#garden {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.foto {
+    width: 329px;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid 1px #338fe0;
+
+}
+.desc {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.ribe {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
 }
