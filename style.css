@@ -152,7 +152,6 @@ section {
 .houseplant {
     width: 464px;
     height: 479px;
-    border: solid 5px #9a182e;
     margin-left: 153px;
     
    
@@ -262,4 +261,8 @@ section {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
+}
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
