@@ -208,18 +208,13 @@ section {
     height: 955px;
     margin-top: 90px;
     margin-left: 109px;
-    border: solid 5px  #e033a9;
-
 }
 .block {
     width: 330px;
     height: 450px;
-    background-color:#E3E1D5 ;
-    border-color: solid 1px #E3E1D5;
-    border-radius: 20px;
- 
-
-      
+    border-radius: 20px;  
+    border: solid 1px #E3E1D5;
+       
 }
 .one {
     display: flex;
@@ -235,14 +230,13 @@ section {
 #garden {
     margin-left: 0px;
     margin-top: 0px;
+    border-color: solid 1px #E3E1D5;
 }
 .foto {
     width: 329px;
     height: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border: solid 1px #338fe0;
-
 }
 .desc {
     display: flex;
