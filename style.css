@@ -70,7 +70,6 @@ section {
 .leafs {
     width: 449px;
     height: 407px;
-    border: solid 5px #9a182e;
 }
 .description {
     width: 549px;
@@ -284,7 +283,7 @@ img {
 }
 .down {
     display: column;
-    justify-content: center;
+    justify-content: space-around;;
     align-items: center;
     width: 332px;
     height: 282px;
@@ -299,6 +298,7 @@ img {
     align-items: center;
     margin-top: 34px;
     margin-left: 41px;
+    margin-right: 41px;
     background-color: #EDF2EC;
     border-radius: 20px;
     width: 250px;
@@ -347,4 +347,48 @@ img {
     width: 152px;
     height: 175px;
     margin-left: 738px;
+}
+#contact {
+    width: 1440px;
+    height: 550px;
+    background-color: #EDF2EC;
+}
+.woman {
+    width: 400px;
+    height: 497px;
+    margin-top: 53px;
+    margin-left: 109px;
+    
+}
+.contact {
+    display: flex;
+}
+.middle {
+    font-family: Inika;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    width: 195px;
+    height: 51px;
+    margin-top: 60px;
+    margin-left: 113px;
+
+}
+.button-city {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 148px;
+    margin-left: 64px;
+    background-color: #D6E7D2;
+    border-radius: 20px;
+    width: 450px;
+    height: 50px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #717171;
+    padding-left: 20px;
+    
 }
