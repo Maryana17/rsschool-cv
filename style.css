@@ -64,8 +64,15 @@ section {
     height: 407px;
     margin-top: 62px;
     margin-left: 109px;
+     
+}
+.logo {
+    width: 79px;
+    height: 21px;
     
-    
+    margin-left: 111px;
+    border: solid 3px #499A18;
+
 }
 .leafs {
     width: 449px;
