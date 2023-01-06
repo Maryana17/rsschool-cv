@@ -1,2 +1,2 @@
-https://Maryana17.github.io/rsschool-cv/cv
-https://github.com/Maryana17/rsschool-cv.git
+https://github.com/Maryana17/Plants
+https://Maryana17.github.io/rsschool-cv/plants
