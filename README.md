@@ -1,2 +1,1 @@
-https://Maryana17.github.io/rsschool-cv/cv
-https://github.com/Maryana17/rsschool-cv.git
+	https://deploy-preview-11--lovely-gelato-a497ca.netlify.app
