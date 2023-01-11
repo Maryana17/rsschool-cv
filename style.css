@@ -1,6 +1,8 @@
 body {
     display: flex;
 	flex-direction:column;
+    width: 1440px;
+    margin: 0 auto;
 }
 .black {
     color: #010201;
@@ -113,6 +115,17 @@ section {
     border: solid 2px #E06733;
     border-radius: 10px;
 }
+.btn-learn:hover {
+    width: 158px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #E06733;
+    border: solid 2px #E06733;
+    color: #FFFFFF;
+
+
+
+}
 .about {
     display: flex;
 	justify-content: flex;
@@ -206,7 +219,18 @@ section {
     font-size: 20px;
     line-height: 26px;
     color: #E06733;
-
+}
+.button-services:hover {
+    width: 161px;
+    height: 50px;
+    border: solid 1px #E06733;
+    border-radius: 5px;
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background-color: #E06733;
 }
 .services {
     display: inline-block;
@@ -357,6 +381,16 @@ img {
     font-weight: 400;
     font-size: 20px;
     margin-left: 728px;
+
+}
+.button-conta:hover {
+    width: 162px;
+    height: 50px;
+    border: solid 1px #E06733;
+    color: #FFFFFF; 
+    border-radius: 10px;
+    background-color: #E06733;
+
 
 }
 .paint {
