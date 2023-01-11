@@ -49,8 +49,12 @@ body {
     margin-bottom: 42px;
     margin-right: 109px;
   } 
+.nav-link:hover {
+    color: #E06733;
+}
 a {
     text-decoration: none;
+    color: #000000;
  }
 section {
     width: 1440px;
@@ -440,7 +444,11 @@ img {
     line-height: 40px;
     color: #717171;
     padding-left: 20px;
+    box-shadow: 0 4px #d1c6c6;
     
+}
+.button-city:hover {
+    background-color: #c0f49f;
 }
 .footer {
     width: 1440px;
