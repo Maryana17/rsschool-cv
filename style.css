@@ -1,7 +1,7 @@
 body {
     display: flex;
 	flex-direction:column;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .black {
@@ -467,6 +467,8 @@ img {
 .icons {
     width: 188px;
     height: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 .circle {
     display: flex;
