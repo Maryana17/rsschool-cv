@@ -179,7 +179,7 @@ section {
     
    
 }
-#service {
+#services {
     height: 1300px;
     background-color: #EDF2EC;
 }
@@ -237,7 +237,10 @@ section {
     background-color: #E06733;
 }
 .services {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: flex-start;   
     width: 1222px;
     height: 955px;
     margin-top: 90px;
@@ -248,19 +251,10 @@ section {
     height: 450px;
     border-radius: 20px;  
     border: solid 1px #E3E1D5;
+    margin-bottom: 55px;
        
 }
-.one {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0px;
-    margin-bottom: 55px;
-}
-.two {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0px;
-}
+
 #garden {
     margin-left: 0px;
     margin-top: 0px;
