@@ -28,9 +28,9 @@ body {
   
   section {
     flex-direction: column;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	  display: flex;
+	  justify-content: flex-start;
+	  align-items: center;
     border-left: solid #a3a5c8 2px;
     border-top: solid #a3a5c8 2px;
     width: 45%;
@@ -47,10 +47,10 @@ body {
 	  width: 400px;
     padding: 10px;
     background: rgb(237, 245, 249);
+    text-align:justify;
   }
-  .block p {
-    line-height:0; 
-    text-align:justify
+  p {
+    margin: 10px;
   }
   
 .container {
@@ -60,9 +60,14 @@ body {
     justify-content: flex-start;
     align-items: space-around;
  }
-  .avatar {
-    width: 121px;
-    height: 100px;
+  .foto {
+    border: solid 1px red;
+    width: 170px;
+    height: 130px;
+  }
+  .foto img {
+    width: 100%;
+    height: 100%;
   }
   @media (max-width: 768px) {
     .section {
@@ -79,14 +84,14 @@ body {
 
   }
   .header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-start;
-	height: 70px;
-	width: 100%;
-	font-size: 20px;
-	color: #6166ab;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    color: #6166ab;;
     background: rgb(237, 245, 249);
     border-bottom: solid #a3a5c8 2px;
   }
@@ -97,9 +102,9 @@ body {
 
   .nav {
     display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
     max-width: 100%;
   }
 
@@ -107,11 +112,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-	align-items: center;
+	  align-items: center;
     border: #6166ab 5px;
     width: 100%;
-    height: 100px;
-    margin: 50px;
+    height: 130px;
+    margin: 35px;
    
   }
 
