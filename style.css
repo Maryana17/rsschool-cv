@@ -1,0 +1,133 @@
+body {
+    font-family: 'Times New Roman';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 10px; 
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1,5;
+    color: #6166ab;;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   
+  }
+  .nav-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    line-height: 50px;
+    list-style: none;
+    width: 1240px;
+  }
+  a { text-decoration: none; }
+  
+  section {
+    flex-direction: column;
+	  display: flex;
+	  justify-content: flex-start;
+	  align-items: center;
+    border-left: solid #a3a5c8 2px;
+    border-top: solid #a3a5c8 2px;
+    width: 37%;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 300px;
+	  width: 400px;
+    padding: 10px;
+    background: rgb(237, 245, 249);
+    text-align:justify;
+  }
+  p {
+    margin: 10px;
+  }
+  
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-around;
+ }
+  .foto {
+    width: 220px;
+    height: 190px;
+  }
+  #profile img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    section {
+      width: 100%;
+    }
+  }
+  
+    
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #6166ab;
+
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 70px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #6166ab;;
+    background: rgb(237, 245, 249);
+    border-bottom: solid #a3a5c8 2px;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+  #profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	  align-items: center;
+    border: #6166ab 5px;
+    height: 130px;
+    margin: 35px;
+    width: 80%;
+   
+  }
+
+  .text{
+    font-weight: bold;
+  }
+  li {
+    line-height: 2;
+    list-style-type: none;
+  }
