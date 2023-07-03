@@ -44,9 +44,13 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     height: 300px;
-	width: 400px;
+	  width: 400px;
     padding: 10px;
     background: rgb(237, 245, 249);
+  }
+  .block p {
+    line-height:0; 
+    text-align:justify
   }
   
 .container {
