@@ -140,11 +140,17 @@ body {
     height: 30px;
     margin: 10px;
   }
+  .Github img {
+    width: 30px;
+  }
   .year {
     font-weight: bold;
   }
   .rsschool {
     margin: 10px ;
+  }
+  .rsschool img {
+    height: 30px;
   }
 
   
