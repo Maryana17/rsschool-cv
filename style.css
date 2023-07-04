@@ -54,8 +54,8 @@ body {
     margin: 10px;
   }
   .foto {
-    width: 220px;
-    height: 190px;
+    width: 205px;
+    height: 225px;
   }
   #profile img {
     width: 100%;
@@ -100,7 +100,7 @@ body {
     justify-content: space-around;
 	  align-items: center;
     border: #6166ab 5px;
-    height: 130px;
+    height: 200px;
     margin: 35px;
     width: 80%;
    
