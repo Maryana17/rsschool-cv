@@ -35,9 +35,11 @@ body {
     border-left: solid #a3a5c8 2px;
     border-top: solid #a3a5c8 2px;
     width: 37%;
-    height: 20rem;
+    height: 18rem;
     margin: 10px;
     padding: 10px;
+    border-radius: 10px;
+    background-color: #b9e2ed55;
   }
   .block {
     display: flex;
@@ -47,7 +49,6 @@ body {
     height: 80%;
 	  width: 80%;
     padding: 10px;
-    background: rgb(237, 245, 249);
     text-align:justify;
   }
   p {
@@ -62,11 +63,14 @@ body {
     height: 100%;
   } 
   .section-title {
-    font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #6166ab;
+    background-color: #a8d7d0;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .header {
     display: flex;
@@ -74,12 +78,12 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     height: 70px;
-    width: 85%;
+    width: 78%;
     margin: 0 auto;
     font-size: 20px;
     color: #6166ab;;
-    background: rgb(237, 245, 249);
     border-bottom: solid #a3a5c8 2px;
+    background-color: #b9e2ed55;
   }
 
   html {
@@ -99,13 +103,17 @@ body {
     flex-direction: row;
     justify-content: space-around;
 	  align-items: center;
-    border: #6166ab 5px;
-    height: 200px;
-    margin: 35px;
-    width: 80%;
-   
+    height: 300px;
+    margin: 20px;
+    width: 77%;
+    background-color: #a8d7d0;
+    border-radius: 10px;
   }
-
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
   .text{
     font-weight: bold;
   }
@@ -116,12 +124,12 @@ body {
   /* footer
   */
   .footer {
-    width: 85%;
+    width: 78%;
     margin: 20px auto;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: solid 2px #a3a5c8;
     border-bottom: solid 2px #a3a5c8;
   }
@@ -144,13 +152,35 @@ body {
     section {
      width: 43%;
    }
+   #profile {
+     width: 90%;
+   }
+   .header {
+    width: 90%;
+   }
+   .footer {
+    width: 85%;
+   }
  }
 
- @media screen and (max-width: 1045px) {
-   section {
-     width: 100%;
+ @media screen and (max-width: 1010px) {
+   .block {
+    width: 100%;
    }
    .header {
      width: 100%;
    }
+ }
+ @media screen and (max-width: 840px) {
+    section {
+      width: 100%;
+    }
+    #profile {
+      width: 100%;
+    }
+ }
+ @media screen and (max-width: 700px) {
+    #profile {
+      height: auto;
+    }
  }
