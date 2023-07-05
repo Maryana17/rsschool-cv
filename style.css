@@ -31,8 +31,7 @@ body {
     flex-direction: column;
 	  display: flex;
 	  justify-content: flex-start;
-	  align-items: center;
-    border-left: solid #a3a5c8 2px;
+	  border-left: solid #a3a5c8 2px;
     border-top: solid #a3a5c8 2px;
     width: 37%;
     height: 18rem;
@@ -71,6 +70,7 @@ body {
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 10px;
   }
   .header {
     display: flex;
@@ -129,7 +129,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     border-top: solid 2px #a3a5c8;
     border-bottom: solid 2px #a3a5c8;
   }
