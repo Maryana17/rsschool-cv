@@ -7,7 +7,6 @@ body {
     margin: 0 auto; 
     padding: 20px;
     font-size: 18px;
-    color: #6166ab;
     background-color: rgb(245, 253, 253);
   }
   .main-container {
@@ -25,8 +24,10 @@ body {
     list-style: none;
     width: 1240px;
   }
-  a { text-decoration: none; }
-  
+  a { 
+    text-decoration: none; 
+    color: black;
+  }
   section {
     flex-direction: column;
 	  display: flex;
@@ -65,12 +66,12 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #6166ab;
     background-color: #a8d7d0;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 10px;
+    margin-right: 10px;
   }
   .header {
     display: flex;
@@ -81,15 +82,12 @@ body {
     width: 78%;
     margin: 0 auto;
     font-size: 20px;
-    color: #6166ab;;
     border-bottom: solid #a3a5c8 2px;
     background-color: #b9e2ed55;
   }
-
   html {
     scroll-behavior: smooth; 
   }
-
   .nav {
     display: flex;
     flex-direction: row;
@@ -97,7 +95,6 @@ body {
     align-items: flex-start;
     max-width: 100%;
   }
-
   #profile {
     display: flex;
     flex-direction: row;
@@ -113,6 +110,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 70%;
+  }
+  h1, h3 {
+    color: #0f168b;
   }
   .text{
     font-weight: bold;
