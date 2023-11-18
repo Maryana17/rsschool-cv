@@ -42,4 +42,4 @@
 ## Languages
 * English A2
 * German A1
-* Portuguese A1
+* Portuguese A2
